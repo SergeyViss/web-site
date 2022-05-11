@@ -1,0 +1,195 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 40;}
+/*--------------------*/
+
+.img{
+   min-width: 100px;
+   background-size: contain;
+}
+.ob{
+   max-width: 944px;
+   margin: 0 auto;
+}
+.rodi{
+   font-family: Gilroy-Bold, sans-serif;
+   font-size: 18px;
+   margin: 0 auto;
+   color: #828282;
+   line-height: 22.28px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 33px 0px;
+} 
+.line{
+   height: 1px;
+   width: 100%;
+   background-color: black;
+}
+.home{
+   margin-left: 0px;
+	padding: 10px 10px;
+	display: inline-block;
+}
+.home:not(:first-child){
+   margin-left: 128px;
+}
+.ss{
+   color: black;
+	padding: 5px 7px;
+	display: inline-block;
+}
+.rodi2{
+   font-family: Gilroy-Bold;
+   font-size: 18px;
+   margin: 40px 0px 31px 0px;
+   text-align: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.inf1,.inf2,.inf3{
+	display: inline-block;
+}
+.ru{
+   color: #828282;
+}
+
+.inf1{
+   font-size: 47.34px;
+}
+.inf2{
+   font-family: Gilroy-Medium;
+   font: size 18px;
+   line-height: 21.83px;
+}
+.inf3{
+   transform: rotate(-90deg);
+   /* margin-left: 262px; */
+   font-size : 16px;
+   line-height: 19.81px;
+}
+button{
+   background-color: white;
+   color: #828282;
+   font-size: 18px;
+}
+
+button:hover{
+   color: black;
+   font-size: 18px;
+}
+
+.izb{
+   font-size: 16px;
+}
+.izb:hover{
+   font-size: 16px;
+}
+a{
+   color: #828282 ;
+}
+a:hover{
+   color: black;
+}
+/* About_me */
+.About_me{
+   margin: 104px 0 91px 0;
+   background-color: #F6F6F6;
+}
+.About_me_me{
+   padding: 120px 0 18px 0 ;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 34px;
+   font-family: Gilroy-Bold;
+}
+.About_me_fot{
+   padding: 0 0 107px 0;
+   max-width: 486px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 18px;
+   font-family: Gilroy-Medium;
+}
+.text{
+   padding-bottom: 22px;
+}
+/* skills */
+.Skills_head{
+   padding-top: 91px;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 34px;
+   font-family: Gilroy-Bold;
+}
+.Skills_info{
+   margin: 0 auto;
+   text-align: center;
+   font-family: Gilroy-Medium;
+   font-size: 18px;
+   margin-top: 69px;
+}
+.skills_card{
+display: flex;
+ flex-direction:column; /* текст в колонку */
+justify-content: space-between;
+align-items: center;
+height: 170px;
+}
+.card_img{
+   width: 90px;
+   height: 90px;
+}
+.card_title{
+   font-family: Gilroy-Bold;
+   font-size: 14px;
+   line-height: 18px;
+   text-align: center;
+   color: #828282;
+   
+}
+.cards_wrapper{
+   margin: 82px auto 0 auto;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 944px;
+}
